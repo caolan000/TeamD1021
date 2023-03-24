@@ -37,17 +37,34 @@
         <label for="aagi"><small>Typically found on line 37 of your tax return.</small></label><br>
         <input type="textbox" id="aagi"><br>
 
-        <label for="numofper"></label>
-        <select>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
-            <li>7</li>
-            <li>8+</li>
+        <label for="numofper"> Number of Persons in Household</label><br>
+        <select id="numofper">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8+">8+</option>
         </select>
+        <br>
+
+        <label for="typeofcase">Type of Case</label><br>
+        <select id="typeofcase">
+            <option value="other">I am not sure/Other</option>
+            <option value="general">General Civil Law</option>
+            <option value="family">Family Law</option>
+            <option value="estate">Estate/Probate Law</option>
+            <option value="criminal">Criminal Law</option>
+        </select>
+        <br>
+
+        <label for="existingnum">Existing Case #</label><br>
+        <input type="textbox" id="existingnum"><br>
+
+        <label for="opposingp">Opposing Party</label><br>
+        <input type="textbox" id="opposingp"><br>
    </form>
 </body>
 </html>
