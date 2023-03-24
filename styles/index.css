@@ -5,9 +5,8 @@
 .item5 { grid-area: right;}
 .item6 { grid-area: attorneys;}
 .item7 { grid-area: individuals;}
-.item8 { grid-area: nonprofit;}
-.item9 { grid-area: fees;}
-.item10 { grid-area: footer;}
+.item8 { grid-area: fees;}
+.item9 { grid-area: footer;}
 
 .grid-container{
     display: grid;
@@ -17,7 +16,6 @@
     'menu main main main main right'
     'menu attorneys attorneys attorneys attorneys attorneys'
     'menu individuals individuals individuals individuals individuals'
-    'menu nonprofit nonprofit nonprofit nonprofit nonprofit'
     'menu fees fees fees fees fees'
     'footer footer footer footer footer footer';
     gap: 10px;
@@ -68,9 +66,39 @@ body{
     width: 100%;
 }
 
-/* attorneys */
-
 /* individuals */
+
+/* styling from devcamp */
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .squares {
+    width: 30em;
+  }
+  
+  .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: auto;
+  }
+  
+  .square > .img-wrapper img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .square > .square-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+
 
 /* nonprofit */
 
