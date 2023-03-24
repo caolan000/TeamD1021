@@ -1,9 +1,9 @@
 .item1 { grid-area: header;}
-.item2
-.item
-.item
-.item
-.item
-.item
-.item
-.item
+.item2 { grid-area: nav;}
+.item3 { grid-area: menu;}
+.item4 { grid-area: main;}
+.item5 { grid-area: right;}
+.item6 { grid-area: header;}
+.item7 { grid-area: header;}
+.item8 { grid-area: header;}
+.item9 { grid-area: footer;}
