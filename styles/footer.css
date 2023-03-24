@@ -1,4 +1,5 @@
-.item9 a {
+.item9{
+    list-style: none;
     float: left;
     display: flex;
     color: var(--background);
@@ -9,6 +10,7 @@
     font-size: 1rem;
     border-radius: 1em;
     background-color: var(--camblue);
+
 }
 
 .item9{
