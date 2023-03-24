@@ -9,11 +9,21 @@
 .item9 { grid-area: fees;}
 .item10 { grid-area: footer;}
 
-.grid-contianer{
+.grid-container{
     display: grid;
     grid-template-areas:
     'header header header header header header'
     'nav nav nav nav nav nav'
     'menu main main main main right'
-    "footer footer footer footer footer footer"
+    'menu attorneys attorneys attorneys attorneys attorneys'
+    'menu individuals individuals individuals individuals individuals'
+    'menu nonprofit nonprofit nonprofit nonprofit nonprofit'
+    'menu fees fees fees fees fees'
+    'footer footer footer footer footer footer';
+    gap: 10px;
+    background-color: var(--background);
+    padding: 10px;
 }
+
+.grid-container
+
