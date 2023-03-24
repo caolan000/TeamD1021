@@ -6,7 +6,7 @@
     padding: 5px;
 }
 
-.navbar a {
+.footer a {
     float: left;
     display: block;
     color: var(--background);
@@ -19,12 +19,7 @@
     background-color: var(--camblue);
 }
 
-a:hover {
-    background-color: var(--lightcam);
-    color: var(--text);
-}
-
-.item2 {
+.item9 {
     position: sticky;
     top: 0;
     width: 100%;
