@@ -37,6 +37,17 @@
     height: 25em;
     background-image: url(../images/greenbanner.jpg);
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    background-color: #3e84586f;
+    color: var(--background);
+    width: 70%;
 }
 
 
