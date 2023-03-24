@@ -1,14 +1,7 @@
-.footer {
-    height: auto;
-    background-color: var(--background);
-    display: flex;
-    justify-content: flex-end;
-    padding: 5px;
-}
-
-.footer a {
+.item9{
+    list-style: none;
     float: left;
-    display: block;
+    display: flex;
     color: var(--background);
     text-align: center;
     padding: 14px 30px;
@@ -17,10 +10,17 @@
     font-size: 1rem;
     border-radius: 1em;
     background-color: var(--camblue);
+
 }
 
-.item9 {
+.item9{
     position: sticky;
     top: 0;
     width: 100%;
+    height: auto;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px;
 }
