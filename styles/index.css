@@ -3,7 +3,17 @@
 .item3 { grid-area: menu;}
 .item4 { grid-area: main;}
 .item5 { grid-area: right;}
-.item6 { grid-area: header;}
-.item7 { grid-area: header;}
-.item8 { grid-area: header;}
-.item9 { grid-area: footer;}
+.item6 { grid-area: attorneys;}
+.item7 { grid-area: individuals;}
+.item8 { grid-area: nonprofit;}
+.item9 { grid-area: fees;}
+.item10 { grid-area: footer;}
+
+.grid-contianer{
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'nav nav nav nav nav nav'
+    'menu main main main main right'
+    "footer footer footer footer footer footer"
+}
