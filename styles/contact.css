@@ -1,6 +1,6 @@
 body{
     background-color: var(--background);
-    color: var(--text);
+    color: var(--dartmouth);
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     margin:0;
@@ -14,13 +14,47 @@ body{
     height: 400px;
     width: 100%;
     object-fit: cover;
+    border-bottom: 5px solid var(--camblue);
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+.contact-info h1{
+    display:flex;
+    justify-content: center;
+    font-size: 3em;
+}
+
+.contact-info .phone{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+
+.contact-info .phone-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info .instruc{
+    display:flex;
+    justify-content: center;
+    margin-top: 8%;
+    font-size: 1em;
+    text-align: center;
 }
 
 form{
     display: flex;
     flex-direction: column;
     align-items: space-around;
-    margin-top: 10%;
+    margin-top: 8%;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -53,13 +87,24 @@ form input{
     border-radius: 2px;
 }
 
-form input[type=text]:focus{
+textarea:focus, input[type=textbox]:focus{
+    outline:none;
     border: 2px solid var(--dartmouth);
+    border-radius: 2px;
 }
 
+form textarea{
+    border: 2px solid var(--camblue);
+}
 
 form .textbox textarea{
     max-width:100%;
+}
+
+form select{
+    border: 2px solid var(--camblue);
+    border-radius: 2px;
+    color: var(--dartgreen);
 }
 
 form .btn{
@@ -94,4 +139,5 @@ iframe{
 .footer{
     height: 200px;
     background-color: var(--camblue);
+    margin:0;
 }
