@@ -25,5 +25,17 @@
     padding: 10px;
 }
 
-.grid-container
+.grid-container > div {
+    background-color: var(--background);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+/* header */
+.item1 {
+    height: 30em;
+    background-image: url(banner.jpg);
+    width: 100%;
+}
 
