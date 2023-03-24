@@ -67,6 +67,20 @@ body{
 }
 
 /* individuals */
+.square-text-wrapper{
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.square-text-wrapper h3{
+    font-family: 'Noto Serif JP', serif;
+    color: var(--dartmouth)
+}
+
+.square-text-wrapper p, ul, li {
+    font-family: 'Raleway', sans-serif;
+    color: var(--seagreen);
+}
 
 /* styling from devcamp */
 .squares-wrapper {
@@ -95,12 +109,11 @@ body{
     align-items: center;
     flex-direction: column;
     padding: 10px;
-    font-size: 1rem;
   }
+  /* end of styling from devcamp */
 
 
 
-/* nonprofit */
 
 /* fees */
 
