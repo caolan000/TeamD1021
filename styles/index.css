@@ -34,8 +34,8 @@
 
 /* header */
 .item1 {
-    height: 30em;
-    background-image: url(banner.jpg);
+    height: 25em;
+    background-image: url(../images/greenbanner.jpg);
     width: 100%;
 }
 
@@ -48,7 +48,7 @@
 /* right image */
 .item5 {
     height: 20em;
-    background-image: url(strawberry.png);
+    background-image: url();
     width: 100%;
 }
 
