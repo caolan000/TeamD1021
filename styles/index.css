@@ -32,8 +32,10 @@
     font-size: 30px;
 }
 
+/* header */
 .item1 {
     height: 30em;
     background-image: url(banner.jpg);
     width: 100%;
 }
+
