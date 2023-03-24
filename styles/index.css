@@ -39,3 +39,91 @@
     width: 100%;
 }
 
+/* navbar */
+.navbar {
+    height: auto;
+    background-color: var(--camblue);
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+  
+.navbar a {
+    float: left;
+    display: block;
+    color: var(--text);
+    text-align: center;
+    padding: 14px 30px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 1em;
+
+}
+  
+a:hover {
+    background-color: var(--lightcam);
+    color: rgb(49, 0, 0);
+}
+
+.item2 {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+/* menu */
+.item3 {
+    height: 10em;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+.item3 ul {
+    list-style-type: none;
+    /* margin-top: 4.5rem; */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.item3 ul li {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.item3 ul li a {
+    display: block;
+    padding: 1em;
+    background-color: var(--camblue);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--text);
+    width: 100%;
+}
+
+.item3 ul li a:hover {
+    background-color: var(--lightcam);
+    color: rgb(49, 0, 0);
+}
+
+
+/* main text/content */
+.item4 {
+    height: 20em;
+}
+
+/* right image */
+.item5 {
+    height: 20em;
+    background-image: url(strawberry.png);
+    width: 100%;
+}
+
+/* footer */
+.item6 {
+    height: 5em;
+}

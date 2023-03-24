@@ -1,0 +1,31 @@
+.navbar {
+    height: auto;
+    background-color: var(--camblue);
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+  
+.navbar a {
+    float: left;
+    display: block;
+    color: var(--text);
+    text-align: center;
+    padding: 14px 30px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 1em;
+
+}
+  
+a:hover {
+    background-color: var(--lightcam);
+    color: rgb(49, 0, 0);
+}
+
+.item2 {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
