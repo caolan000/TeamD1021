@@ -14,6 +14,7 @@ body{
     height: 400px;
     width: 100%;
     object-fit: cover;
+    border-bottom: 5px solid var(--camblue);
 }
 
 .contact-info{
