@@ -1,27 +1,28 @@
 .navbar {
     height: auto;
-    background-color: var(--camblue);
+    background-color: var(--background);
     display: flex;
     justify-content: flex-end;
     padding: 5px;
 }
-  
+
 .navbar a {
     float: left;
     display: block;
-    color: var(--text);
+    color: var(--background);
     text-align: center;
     padding: 14px 30px;
     margin-left: 15px;
     text-decoration: none;
     font-size: 1rem;
     border-radius: 1em;
-
+    background-color: var(--dartmouth);
+    opacity: 70%;
 }
   
 a:hover {
     background-color: var(--lightcam);
-    color: rgb(49, 0, 0);
+    color: var(--text);
 }
 
 .item2 {
