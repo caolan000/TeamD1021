@@ -1,12 +1,4 @@
-.footer {
-    height: auto;
-    background-color: var(--background);
-    display: flex;
-    justify-content: flex-end;
-    padding: 5px;
-}
-
-.footer a {
+.item9 a {
     float: left;
     display: flex;
     color: var(--background);
@@ -19,8 +11,14 @@
     background-color: var(--camblue);
 }
 
-.item9 {
+.item9{
     position: sticky;
     top: 0;
     width: 100%;
+    height: auto;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px;
 }
