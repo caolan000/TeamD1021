@@ -2,7 +2,16 @@ body{
     background-color: var(--background);
     color: var(--text);
     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     margin:0;
+}
+
+.header{
+    height: 400px;
+    width: 100%;
+    background-image: url(images\hammeronbooks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 form{
@@ -37,5 +46,40 @@ form .textbox{
     width: 80%;
 }
 
-form .dropdown{
+form input{
+    border: 2px solid var(--camblue);
+    border-radius: 2px;
+}
+
+form input[type=text]:focus{
+    border: 2px solid var(--dartmouth);
+}
+
+
+form .textbox textarea{
+    max-width:100%;
+}
+
+form .btn{
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+
+form button{
+    text-align: center;
+    padding: 14px 30px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 1em;
+    background-color: var(--camblue);
+    border: none;
+    font-weight: bold;
+    color: var(--background);
+}
+
+form button:hover{
+    background-color: var(--lightcam);
+    color: var(--text);
 }
