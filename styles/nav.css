@@ -16,10 +16,9 @@
     text-decoration: none;
     font-size: 1rem;
     border-radius: 1em;
-    background-color: var(--dartmouth);
-    opacity: 70%;
+    background-color: var(--camblue);
 }
-  
+
 a:hover {
     background-color: var(--lightcam);
     color: var(--text);
