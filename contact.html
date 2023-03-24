@@ -7,77 +7,110 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/nav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
 
     </div>
-   <div class="navbar">
-
-   </div> 
+    <div class="item2">
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </div>
    <div class="contact-info">
 
    </div>
    <form>
-        <label for="firstname">First Name</label> <br>
-        <input type="textbox" id="firstname"><br>
+        <div class="name">
+            <div class="firstname">
+                <label for="firstname">First Name</label><br>
+                <input type="textbox" id="firstname"><br>
+            </div>
+            <div class="lastname">
+                <label for="lastname">Last Name</label><br>
+                <input type="textbox" id="lastname"><br>
+            </div>
+        </div>
 
-        <label for="lastname">Last Name</label><br>
-        <input type="textbox" id="lastname"><br>
+        <div class="textbox">
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone"><br>
+        </div>
 
-        <label for="phone">Phone Number</label><br>
-        <input type="tel" id="phone"><br>
+        <div class="textbox">
+            <label for="email">Email Address</label> <br>
+            <input type="email" id="email"><br>
+        </div>
 
-        <label for="email">Email Address</label> <br>
-        <input type="email" id="email"><br>
+        <div class="textbox">
+            <label for="city">City</label><br>
+            <input type="textbox" id="city"><br>
+        </div>
 
-        <label for="city">City</label><br>
-        <input type="textbox" id="city"><br>
-
-        <label for="aagi">Adjusted Annual Gross Income</label><br>
-        <label for="aagi"><small>Typically found on line 37 of your tax return.</small></label><br>
-        <input type="textbox" id="aagi"><br>
-
-        <label for="numofper"> Number of Persons in Household</label><br>
-        <select id="numofper">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8+">8+</option>
-        </select>
+        <div class="textbox">
+            <label for="aagi">Adjusted Annual Gross Income</label><br>
+            <label for="aagi"><small>Typically found on line 37 of your tax return.</small></label><br>
+            <input type="textbox" id="aagi"><br>
+        </div>
+        <div class="dropdown">
+            <label for="numofper"> Number of Persons in Household</label><br>
+            <select id="numofper">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8+">8+</option>
+            </select>
+        </div>
         <br>
-
-        <label for="typeofcase">Type of Case</label><br>
-        <select id="typeofcase">
-            <option value="other">I am not sure/Other</option>
-            <option value="general">General Civil Law</option>
-            <option value="family">Family Law</option>
-            <option value="estate">Estate/Probate Law</option>
-            <option value="criminal">Criminal Law</option>
-        </select>
+        <div class="dropdown">
+            <label for="typeofcase">Type of Case</label><br>
+            <select id="typeofcase">
+                <option value="other">I am not sure/Other</option>
+                <option value="general">General Civil Law</option>
+                <option value="family">Family Law</option>
+                <option value="estate">Estate/Probate Law</option>
+                <option value="criminal">Criminal Law</option>
+            </select>
+        </div>
         <br>
+        <div class="textbox">
+            <label for="existingnum">Existing Case #</label><br>
+            <input type="textbox" id="existingnum"><br>
+        </div>
 
-        <label for="existingnum">Existing Case #</label><br>
-        <input type="textbox" id="existingnum"><br>
+        <div class="textbox">
+            <label for="opposingp">Opposing Party</label><br>
+            <input type="textbox" id="opposingp"><br>
+        </div>
 
-        <label for="opposingp">Opposing Party</label><br>
-        <input type="textbox" id="opposingp"><br>
+        <div class="text-box">
+            <label for="opposinga">Opposing Attorney</label><br>
+            <input type="textbox" id="opposinga"><br>
+        </div>
 
-        <label for="opposinga">Opposing Attorney</label><br>
-        <input type="textbox" id="opposinga"><br>
+        <div class="textarea">
+            <label for="message">Message</label><br>
+            <label for="message"><small>Please give a bried description of legal issue and date of hearing if one has been scheduled.</small></label><br>
+            <input type="textarea" id="message"><br>
+        </div>
 
-        <label for="message">Opposing Party</label><br>
-        <label for="message"><small>Please give a bried description of legal issue and date of hearing if one has been scheduled.</small></label><br>
-        <input type="textarea" id="message"><br>
-
-        <button type="button">Submit</button>
+        <div class="btn">
+            <button type="button">Submit</button>
+        </div>
    </form>
+
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d755.9129085986606!2d-111.87375457078254!3d40.72568479870814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87528aba4830c139%3A0x4e374e650dea598!2s623%20E%202100%20S%2C%20Salt%20Lake%20City%2C%20UT%2084106!5e0!3m2!1sen!2sus!4v1679670531867!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </body>
 </html>
